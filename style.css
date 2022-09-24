@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgb(0, 140, 255), rgb(255, 10, 255));
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 850px;
+    padding-top: 50px;
+}
+
+.card-login {
+    
+}
+
+.card-login h1 {
+    text-align: center;
+}
+
+.textfield {
+    padding: 15px 10px;
+    border-bottom: 10px;
+}
+
+.input-user {
+    border-left: 0;
+    border-top: 0;
+    border-bottom: solid #ccc 1px;
+    border-right: 0;
+}
+
+.input-password {
+    border-left: 0;
+    border-top: 0;
+    border-bottom: solid #ccc 1px;
+    border-right: 0;
+}
+
+.btn-login {
+    background: -webkit-linear-gradient(right, #fc00ff, #00dbde);
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    margin-top: 50px;
+}
