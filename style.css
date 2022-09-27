@@ -3,7 +3,7 @@ body {
     background-image: linear-gradient(to right, rgb(0, 140, 255), rgb(255, 10, 255));
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .main-login {
@@ -12,12 +12,12 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 500px;
-    height: 850px;
+    height: 670px;
     padding-top: 50px;
 }
 
 .card-login {
-    
+    font: 1;
 }
 
 .card-login h1 {
@@ -25,32 +25,66 @@ body {
 }
 
 .textfield {
-    padding: 15px 10px;
-    border-bottom: 10px;
+    padding: 15px 10px 0 0 ;
+    border-bottom: 10px
 }
 
-.input-user {
+.textfield .usuario {
+    text-align: start;
+}
+
+.input {
     border-left: 0;
     border-top: 0;
     border-bottom: solid #ccc 1px;
     border-right: 0;
+    padding-top: 10px;
+    width: 350px;
+    padding: 15px;
+    outline: 0;
 }
 
-.input-password {
-    border-left: 0;
-    border-top: 0;
-    border-bottom: solid #ccc 1px;
-    border-right: 0;
+.forgot-password {
+    text-align: end;
+    font-size: 13px;
+    padding: 10px;
+    padding-right: 0;
+    color: rgb(134, 134, 134);
 }
 
 .btn-login {
     background: -webkit-linear-gradient(right, #fc00ff, #00dbde);
     border-radius: 20px;
     height: 40px;
-    width: 300px;
+    width: 400px;
     color: white;
     font-weight: 500;
     cursor: pointer;
     border: none;
+    margin-top: 20px;
+}
+
+.or-sign-up {
+    color: rgb(134,134,134);
+    font-size: 13px;
+    text-align: center;
     margin-top: 50px;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sign-up {
+    color: rgb(134,134,134);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 110px
+}
+
+.sign-up-botton {
+    color: black;
+    font-size: 13px;
+    padding-top: 15px;
 }
